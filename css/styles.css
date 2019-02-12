@@ -1,3 +1,19 @@
+body{
+  background-color: #f8f8f8;
+}
+
+h2{
+  font-size: 2.8rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 2.4rem;
+}
+
+h2 span{
+  font-size: 4rem;
+  font-family: 'Italianno', cursive;
+  color: #e082a8;
+}
+
 /**********************social network menu*******************/
 .social-network ul{
   list-style: none;
@@ -87,4 +103,10 @@
 .carousel-caption h3{
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
+}
+
+.new-site p{
+  font-family: 'Lato', sans-serif;
+  color: #979797;
+  font-size: 1.2rem;
 }
