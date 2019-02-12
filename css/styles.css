@@ -1,0 +1,53 @@
+/**********************social network menu*******************/
+.social-network ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-network ul li{
+  position: relative;
+  display: inline-block;
+}
+
+.social-network ul li a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.4rem;
+  content: '\f35d';
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+  color: #e082a8;
+}
+
+.social-network ul li a[href*="facebook.com"]::before{
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: '\f39e';
+}
+
+.social-network ul li a[href*="twitter.com"]::before{
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: '\f099';
+}
+
+.social-network ul li a[href*="pinterest.com"]::before{
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: '\f231';
+}
+
+.social-network ul li a[href*="instagram.com"]::before{
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: '\f16d';
+}
+
+.social-network ul li a[href*="youtube.com"]::before{
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: '\f167';
+}
