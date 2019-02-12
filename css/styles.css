@@ -51,3 +51,33 @@
   font-weight: 900;
   content: '\f167';
 }
+
+/***********************navigation menu***********************************/
+.navigation{
+  background-color: #8ed3cc;
+}
+
+.navbar-toggler{
+  background-color: white;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.main-nav{
+  background-image: url('../img/border_horizontal.png'), url('../img/border_horizontal.png');
+  background-repeat: repeat-x;
+  background-position: top, bottom;
+}
+
+.nav-link{
+  color: white;
+  font-size: 1.4rem;
+  transition: all .5s ease-in-out;
+}
+
+.nav-link:hover{
+  background-color: #bde8dd;
+  color: black;
+}
