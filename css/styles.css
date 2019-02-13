@@ -1,4 +1,5 @@
 body{
+  font-family: 'Lato', sans-serif;
   background-color: #f8f8f8;
 }
 
@@ -114,6 +115,11 @@ h2 span{
 /****************************************services*******************/
 .service-image img{
   border: 5px solid white;
+  transition: transform .3s ease;
+}
+
+.service-image img:hover{
+  transform: scale(1.2) rotate(10deg);
 }
 
 .service-image .service-info{
@@ -125,4 +131,28 @@ h2 span{
   border-radius: 0;
   background-color: #e082a8;
   border-color: #e082a8;
+}
+
+.schedules{
+  background-color: #8ed3cc;
+  color: white;
+}
+
+.schedules table{
+  border: 2px solid #e082a8;
+}
+
+.schedules table thead{
+  background-color: #e082a8;
+}
+
+.schedules table th, .schedules table td{
+  border: none;
+}
+
+.schedules .schedule-img{
+  background-image: url('../img/bg_horarios.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
 }
