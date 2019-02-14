@@ -156,3 +156,16 @@ h2 span{
   background-size: cover;
   min-height: 400px;
 }
+/**************************products********************/
+.products a{
+  text-decoration: none;
+  color: black;
+}
+
+.products a .card-title{
+  color: #e082a8;
+}
+
+.products a .lead{
+  color: #ccc;
+}
