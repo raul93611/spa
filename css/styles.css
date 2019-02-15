@@ -169,3 +169,22 @@ h2 span{
 .products a .lead{
   color: #ccc;
 }
+/***********************appointments******************/
+.appointments{
+  background-image: url('../img/bg_citas.jpg');
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.appointments a{
+  border-radius: 0;
+  background-color: #8ed3cc;
+  border-color: #8ed3cc;
+}
+
+.site-footer .copyright{
+  font-size: 0.8rem;
+  color: #979797;
+}
