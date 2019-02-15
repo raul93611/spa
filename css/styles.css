@@ -188,3 +188,22 @@ h2 span{
   font-size: 0.8rem;
   color: #979797;
 }
+/************************hero*****************************/
+.hero{
+  position: relative;
+}
+
+.hero h2{
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  background-color: #8ed3cc;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+/*********************sidebar********************************/
+aside{
+  background-color: #8ed3cc;
+  color: white;
+}
