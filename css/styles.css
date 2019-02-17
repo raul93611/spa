@@ -226,3 +226,9 @@ aside{
   border: 2px white dashed;
   border-radius: 5px;
 }
+/*******************products page*********************************/
+@media (min-width: 992px){
+  .card-columns {
+      column-count: 4;
+  }
+}
