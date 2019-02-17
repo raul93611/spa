@@ -232,3 +232,14 @@ aside{
       column-count: 4;
   }
 }
+/*******************contact form*********************************/
+.contact .btn-primary{
+  border-radius: 0;
+  background-color: #8ed3cc;
+  border-color: #8ed3cc;
+}
+
+.contact{
+  background-color: white;
+  border: 1px solid black;
+}
